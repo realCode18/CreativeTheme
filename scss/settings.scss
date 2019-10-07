@@ -1,0 +1,112 @@
+/*
+* CREATIVE - Landing page for agency or creative
+* Build Date: November 2018
+* Last Update: November 2018
+* Author: Alessio Frugoni
+* Copyright (C) 2018 Alessio Frugoni
+* This is a premium product available exclusively here : metto il sito
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+//General
+$color-primary: #2176ff;
+$color-primary-opacity: rgba(#9ac220, 0.6);
+$color-background-services: #303745;
+$color-paragraph: #747a87;
+
+//Portfolio
+$primary-color-portfolio: #2176ff;
+
+//Font
+$color-h1:#323643;
+$color-h2:#323643;
+$color-h3:#323643;
+$color-h4:#323643;
+$color-h5:#323643;
+
+//Navbar
+$color-background-nav: trasparent;
+$color-background-nav-scrolled:rgba(50,54,67,0.9);
+
+//Icon color
+$color-fa-headset: #7da7fa;
+$color-fa-building: #7da7fa;
+$color-fa-desktop: #7da7fa;
+$color-fa-angle-down: #7da7fa;
+$color-fa-download: #ffffff;
+
+//Social color
+$colorfa-facebook: $color-primary;
+$colorfa-dribbble-square: $color-primary;
+$colorfa-pinterest-square: $color-primary;
+$colorfa-instagram: $color-primary;
+$colorfa-twitter-square: $color-primary;
+
+//Footer
+$bg-footer-color: black;
+
+/*******************************************************************************
+Color Button
+*******************************************************************************/
+//About
+$color-font-about: #212529;
+$color-background-about: #fdfdfd00;
+$color-border-about: #656565;
+//About:hover
+$color-font-about-hover: #ffffff;
+$color-background-about-hover: $color-primary;
+$color-border-about-hover: #ffffff;
+/*----------------------------------------------------------------------------*/
+//Play Video
+$color-font-video: #212529;
+$color-background-video: #ffffff;
+$color-border-video: #ffffff;
+$fa-play-color:#212529;
+//Play Video:hover
+$color-font-video-hover: #ffffff;
+$color-background-video-hover: $color-primary;
+$color-border-video-hover: #ffffff;
+$fa-play-color-hover:#ffffff;
+/*----------------------------------------------------------------------------*/
+//Work
+$color-font-work: #ffffff;
+$color-background-work: $color-primary;
+$color-border-work: #ffffff;
+$fa-arrow-color:#ffffff;
+//Work:hover
+$color-font-work-hover: #212529;
+$color-background-work-hover: #fdfdfd00;
+$color-border-work-hover: #656565;
+$fa-arrow-color-hover:#212529;
+/*----------------------------------------------------------------------------*/
+//Services
+$color-font-service: #ffffff;
+$color-background-service: $color-primary;
+$color-border-service: #ffffff;
+//Work:hover
+$color-font-service-hover: #ffff;
+$color-background-service-hover: $color-primary;
+$color-border-service-hover: #ffffff;
+/*----------------------------------------------------------------------------*/
+//Contact
+$color-font-contact: #000000;
+$color-background-contact: #ffffff;
+$color-border-contact: #ffffff;
+$fa-play-contact-color:#000000;
+//Work:hover
+$color-font-contact-hover: #ffff;
+$color-background-contact-hover: $color-primary;
+$color-border-contact-hover: $color-primary;
+$fa-play-color-contact-hover:#ffffff;
+/*----------------------------------------------------------------------------*/
+//Download
+$color-font-download: #ffffff;
+$color-background-download: $color-primary;
+$color-border-download: $color-primary;
+$fa-play-download-color:#ffffff;
+//Download:hover
+$color-font-download-hover: #ffff;
+$color-background-download-hover: #1962d7;
+$color-border-download-hover: #1962d7;
+$fa-play-color-download-hover:#ffffff;

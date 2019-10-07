@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<!--
+* CREATIVE - Landing page for agency or creative
+* Build Date: November 2018
+* Last Update: November 2018
+* Author: Alessio Frugoni
+* Copyright (C) 2018 Alessio Frugoni
+* This is a premium product available exclusively here : metto il sito
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Theme</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-fixed-top navbar-default navbar-expand-lg fixed-top navbar-light " id="navbar-scroll-creative">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/creative-af-logo.png" alt="Creative Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav nav ml-auto nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="img/Avada-Creative-Free.rar" download>
+            <button type="button" class="btndownload btn-download"><i class="fa fa-download"></i>Download Free</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /Navigation -->
+
+  <!-- Hero -->
+  <section class="hero-sec" data-spy="scroll" data-target="#navbar-scroll-creative" data-offset="3" id="home">
+    <div class="container h-100 d-flex justify-content-center  contact-cont">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1>Creative Theme</h1>
+          <h5>Creative theme is a modern and fantastic html template</h5>
+          <!-- PayPal Buttons Free Donation -->
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="NB7RHN9QFJ7XQ" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_IT/i/scr/pixel.gif" width="1" height="1" />
+          </form>
+          <!-- /PayPal Buttons Free Donation -->
+          <h5>If you want to contribute to the development of the theme you will be updated on each release. In addition to the completion of the PRO theme you will be sent via email.</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Hero -->
+
+  <!-- About -->
+  <section>
+    <div class="container" data-spy="scroll" data-target="#navbar-scroll-creative" data-offset="0" id="about">
+      <div class="row">
+        <div class="quote-comment col-md-6 align-self-center section-padding ">
+          <p><span class="comment-apexes"><i class="fas fa-quote-left"></i></span>The things I love most in life cost nothing. It is evident that the most precious resource we all have is time.</p>
+          <p class="autor-text"> <span class="text-bg-blue">STEVE</span> JOBS</p>
+        </div>
+        <div class="are-title col-md-6 section-padding">
+          <h1>Hi, I'm Creative Theme</h1>
+          <div class="">
+            <span><img class="line-work-width" src="img/divide-creative.svg" alt=""></span>
+          </div>
+          <p>
+            <span class="firstcharacter">I</span> have been developed in bootstrap 4, HTML5 and css3. My structure is very simple. I'm organized into pages and sections.
+            I can be customized in a short time.
+          </p>
+          <button type="button" class="btnabout btn-about">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /About -->
+
+  <!-- About2 -->
+  <section class="who-2-sec">
+    <div class="container h-100 d-flex justify-content-center ">
+      <div class="row col-12 align-items-center who-2-cont ">
+        <div class="col">
+          <img src="img/creative-af-logo.png" width="100" height="140" alt="">
+          <h1>Who We Are</h1>
+          <h5>click below to watch our video</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btnvideo btn-video video-btn" data-toggle="modal" data-src="your embeded video here" data-target="#myModal"><i class="fas fa-play"></i>
+            watch video
+          </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="your embeded video here" id="video" allowscriptaccess="always"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /About2 -->
+
+  <!-- Work -->
+  <section data-spy="scroll" data-target="#navbar-scroll-creative" data-offset="0" id="work">
+    <div class="container margin-bot">
+      <div class="row align-items-center margin-top">
+        <div class="col-md-7 subtitle-creative margin-bot">
+          <h1>Our Work</h1>
+          <h5>Courage and curiosity inspire our way of being and identify the people we work with.</h5>
+          <span><img class="line-work-width" src="img/divide-creative.svg" alt=""></span>
+        </div>
+        <div class="col-md-5 work-butt">
+          <button type="button" class="btnwork btn-work"><i class="fas fa-arrow-right"></i> Learn More</button>
+        </div>
+      </div>
+      <!-- Start portfolio -->
+      <div class="container-portfolio">
+        <ul id="filters" class="clearfix">
+          <li><span class="filter active" data-filter=".app, .brand, .ecommerce, .web">All</span></li>
+          <li><span class="filter" data-filter=".app">App</span></li>
+          <li><span class="filter" data-filter=".brand">Brand</span></li>
+          <li><span class="filter" data-filter=".ecommerce">E-Commerce</span></li>
+          <li><span class="filter" data-filter=".web">Web</span></li>
+        </ul>
+
+        <div id="portfoliolist">
+
+          <div class="portfolio app" data-cat="app">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/app/app-1.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Title</a>
+                  <span class="text-category">Application</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio app" data-cat="app">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/app/app-2.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Title</a>
+                  <span class="text-category">Application</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio app" data-cat="app">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/app/app-3.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Title</a>
+                  <span class="text-category">Application</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio app" data-cat="app">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/app/app-4.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Title</a>
+                  <span class="text-category">Application</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio brand" data-cat="brand">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/brand/brand-1.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Branding Company</a>
+                  <span class="text-category">Branding</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio brand" data-cat="brand">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/brand/brand-2.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Branding Company</a>
+                  <span class="text-category">Branding</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio ecommerce" data-cat="ecommerce">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/ecommerce/ecommerce-1.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">E-Commerce Company</a>
+                  <span class="text-category">E-Commerce</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio ecommerce" data-cat="ecommerce">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/ecommerce/ecommerce-2.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">E-Commerce Company</a>
+                  <span class="text-category">E-Commerce</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio ecommerce" data-cat="ecommerce">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/ecommerce/ecommerce-3.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">E-Commerce Company</a>
+                  <span class="text-category">E-Commerce</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio web" data-cat="web">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/web/web-1.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Web Company</a>
+                  <span class="text-category">Web</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio web" data-cat="web">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/web/web-2.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Web Company</a>
+                  <span class="text-category">Web</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio web" data-cat="web">
+            <div class="portfolio-wrapper">
+              <img src="img/portfolios/web/web-3.jpg" alt="" />
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Web Company</a>
+                  <span class="text-category">Web</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /End portfolio -->
+  </section>
+  <!-- /Work -->
+
+  <!-- Service -->
+  <section class="bg-service" data-spy="scroll" data-target="#navbar-scroll-creative" data-offset="0" id="service">
+    <div class="container text-centerd-cont ">
+      <div class="row justify-content-center ">
+        <div class="col-md-6 subtitle-creative-white">
+          <h1>Our Services</h1>
+          <h5>Creative Theme has always linked IT development to the satisfaction of its customers.</h5>
+          <span><img class="line-work-width" src="img/divide-creative.svg" alt=""></span>
+        </div>
+      </div>
+      <div class="row margin-top margin-bot">
+        <div class="col-md-4 ">
+          <div class="card">
+            <i class="fas fa-headset fa-3x "></i>
+            <div class="card-body">
+              <h5 class="card-title">GAMING</h5>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="card">
+            <i class="far fa-building fa-3x "></i>
+            <div class="card-body">
+              <h5 class="card-title">DIGITAL</h5>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="card">
+            <i class="fas fa-desktop fa-3x "></i>
+            <div class="card-body">
+              <h5 class="card-title">BRANDING</h5>
+              <i class="fas fa-angle-down"></i>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+              <li class="list-group-item">Lorem Ipsum</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-12">
+          <button type="button" class="btnserv btn-serv">View all services</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Service -->
+
+  <!-- Contact -->
+  <section class="contact-sec" data-spy="scroll" data-target="#navbar-scroll-creative" data-offset="0" id="contact">
+    <div class="container contact-cont h-100 d-flex justify-content-center">
+      <div class="row col-12 align-items-center">
+        <div class="col ">
+          <img src="img/creative-af-logo.png" width="100" height="140" alt="">
+          <h1>Ready to Talk?</h1>
+          <h5>Lorem ipsum dolor sit amet</h5>
+          <button type="button" class="btncont btn-cont" data-src="#"><i class="fas fa-play"></i>Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Contact -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-fluid d-flex h-100">
+      <div class="row col-12 align-items-center">
+        <div class="col-12 col-md-6 copyright-text ">
+          <p><i class="far fa-copyright"></i> 2018 | Creative Theme by <a href="https://www.alessiofrugoni.com/">Alessio Frugoni</a> | All right Reserved | Powered by Bootstrap </p>
+        </div>
+        <div class="col-12 col-md-6 footer-social-link">
+          <ul class="">
+            <li><a href="https://www.facebook.com/alessio.frugoni.7"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://dribbble.com/alessioFrugoni"><i class="fab fa-dribbble-square fa-2x"></i></a></li>
+            <li><a href="https://www.pinterest.it/afsolution/"><i class="fab fa-pinterest-square fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/alessiofrugoni/"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/Alexssietto"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script src="js\portfolio.js"></script>
+<script src="js\general.js"></script>
+
+</html>
